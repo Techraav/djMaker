@@ -1,0 +1,35 @@
+body {
+  color: #757575;
+  background: #232323;
+}
+nav.menu > li:hover > a,
+nav.menu > li:focus > a {
+  color: #C1C1C1;
+  border-color: #C1C1C1;
+}
+footer,
+nav.menu {
+  border-color: #2D2D2D !important;
+}
+.banner a *,
+.user a,
+.banner h3,
+.content .jumbotron {
+  background: #171717;
+  color: #D0D0D0;
+}
+.user a,
+.menu-right {
+  transition: all 0.15s ease-in-out;
+}
+nav.menu,
+footer,
+.aside .jumbotron {
+  background: #171717;
+}
+/* nav.menu a, footer p, .aside .jumbotron{
+	color:@menuTextColor;
+} */
+a:hover {
+  transition: all 0.1s ease-in-out;
+}
